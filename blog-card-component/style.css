@@ -4,4 +4,76 @@
     box-sizing: border-box;
 }
 
-/* write your CSS here */
+body {
+    background: #F5F5DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    width: 20rem;
+    height: 24rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.cover img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.hashtag {
+    background: orange;
+    line-height: 1.5rem;
+    border-radius: 15px;
+    width: calc(45% - 1px);
+}
+
+.Article {
+    padding: 10px;
+}
+
+.hashtext {
+    font-weight: 400;
+    font-family: "Playfair Display", serif;
+    margin-left: 8px;
+    color:#F5F5DC;
+}
+
+.Title {
+    font-family: "Playfair Display", serif;
+}
+
+.description {
+    font-weight: 100;
+    color: gray;
+    margin-left: 3px;
+}
+
+.footer {
+    padding-left: 15px;
+    display: flex;
+}
+
+.profile img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userInfo {
+    line-height: 1.5rem;
+    margin-left: 13px;
+    font-family: "Playfair Display", serif;
+}
+
+.date {
+    font-weight: lighter;
+    color: gray;
+}
