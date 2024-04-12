@@ -4,4 +4,51 @@
   box-sizing: border-box;
 }
 
-/* write your CSS here */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to right, #fffaf0, #ffd700);
+}
+
+.container {
+  padding: 15px;
+  display: flex;
+  border: 1px solid black;
+  width: 53rem;
+  height: 20rem;
+  background: linear-gradient(to bottom, #add8e6, #87ceeb);
+}
+
+.profile {
+  display: flex;
+  padding-top: 30px;
+}
+
+.profile img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+.sub-container {
+  background: red;
+  padding: 40px;
+
+}
+
+.NRB {
+  background: green;
+}
+
+.FFP {
+  background: purple;
+}
+
+.buttons {
+  background: gray;
+}
