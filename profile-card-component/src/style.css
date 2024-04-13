@@ -4,27 +4,48 @@
   box-sizing: border-box;
 }
 
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
   height: 100vh;
-  background: linear-gradient(to right, #fffaf0, #ffd700);
+  background-image: url('/pngtree-liquid-color-background-vector-design-picture-image_1205214.jpg');
+  background-size: cover;
 }
 
 .container {
   padding: 15px;
   display: flex;
-  border: 1px solid black;
+  border: 3px solid rgb(108, 23, 218);
+  border-radius: 10px;
   width: 53rem;
   height: 20rem;
-  background: linear-gradient(to bottom, #add8e6, #87ceeb);
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .profile {
   display: flex;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 .profile img {
@@ -36,19 +57,45 @@ body {
 }
 
 .sub-container {
-  background: red;
-  padding: 40px;
-
+  border: 1px solid black;
 }
 
 .NRB {
-  background: green;
+  /*background: green;*/
+  flex-direction: column;
 }
 
+.NRB > *:not(:first-child) {
+  margin-top: 0.1rem;
+}
+.name {
+  padding: 3%;
+  margin-left: 5px;
+  font-size: x-large;
+}
+
+.role {
+  color: rgb(182, 176, 176);
+  margin-left: 12px;
+}
+
+.bio {
+  margin-left: 8px;
+  font-size: large;
+}
 .FFP {
   background: purple;
+  display: flex;
+  padding: 3%;
+  justify-content: center;
+  border: 1px solid black;
 }
 
 .buttons {
   background: gray;
+  display: flex;
+  padding: 3%;
+  justify-content: center;
+
+
 }
