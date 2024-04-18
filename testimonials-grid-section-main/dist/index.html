@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="../src/output.css">
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -14,8 +14,55 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-  Daniel Clifford
+<body class="bg-LightgrayBlue p-4">
+  <!-- container -->
+  <div class="bg-ModerateViolet p-6 border-solid rounded-lg">
+    <!-- Review Card-->
+    <div>
+      <div class="absolute top-4 right-9 w-20 h-20 opacity-35">
+        <svg viewBox="0 0 100 104" xmlns="http://www.w3.org/2000/svg"><path d="M104 102V59.727H84.114c0-5.871.689-11.182 2.068-15.933 1.379-4.75 3.42-9.287 6.125-13.61C95.01 25.86 98.909 22.257 104 19.375V0c-9.758 4.27-17.712 9.874-23.864 16.813-6.151 6.939-10.712 14.545-13.681 22.818C63.485 47.904 62 59.941 62 75.74V102h42zm-62 0V59.727H22.114c0-5.871.689-11.182 2.068-15.933 1.379-4.75 3.42-9.287 6.125-13.61C33.01 25.86 36.909 22.257 42 19.375V0c-9.652 4.27-17.58 9.874-23.784 16.813C12.01 23.752 7.424 31.358 4.455 39.631 1.485 47.904 0 59.941 0 75.74V102h42z" fill="#A775F1" fill-rule="nonzero"/></svg>
+        <!-- add new svg Icon for Dekstop-->
+      </div>
+      <!-- Image & Name-->
+      <div>
+        <div class="flex items-center w-1/2">
+          <img class="rounded-full w-8 h-8 " src="../images/image-daniel.jpg" alt="ProfilePic">
+          <div class="ml-2 z-10 text-[9px]">
+            <p class="text-white font-Barlow">Daniel Clifford</p>
+            <p class="text-Lightgray font-Barlow">Verfied Graduate</p>
+          </div>
+        </div>
+      </div>
+      <div class="py-1 space-y-5">
+      <!-- sub-Container Title & Desctiption -->
+      <div class="p-1">
+        <!-- Title -->
+        <p class="font-Barlow text-white font-bold text-[1.148rem]">
+          I received a job offer mid-course, and the subjects I learned were current, if not more so, 
+          in the company I joined. I honestly feel I got every penny’s worth.
+        </p>
+      </div>
+      <!-- Description -->
+      <div>
+        <p class="font-Barlow text-Lightgray">
+          “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
+          transition and have heard some people who had an amazing experience here. I signed up 
+          for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
+          The next 12 weeks was the best - and most grueling - time of my life. Since completing 
+          the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
+        </p>
+      </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
+
+
+<!--
+
+    Daniel Clifford
   Verified Graduate
 
   I received a job offer mid-course, and the subjects I learned were current, if not more so, 
@@ -72,5 +119,4 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
-</body>
-</html>
+-->
