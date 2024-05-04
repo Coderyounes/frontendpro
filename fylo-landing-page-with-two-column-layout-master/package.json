@@ -6,6 +6,9 @@
   "scripts": {
     "dev": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
+  "vercel": {
+    "builds": [{ "src": "dist/**", "use": "@vercel/static" }]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
