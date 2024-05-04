@@ -1074,6 +1074,11 @@ video {
     padding-bottom: 0.75rem;
   }
 
+  .sm\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .sm\:text-left{
     text-align: left;
   }
